@@ -16,55 +16,66 @@ Built-in Quality | Quality should be part of the process and not a separate acti
 
 # technology toolbox
 
-Hierarchy |	Technology | Tools
+Layer |	Category | Technology Tools
 --- | --- | ---
-Agile |	Code Repository |	GitHub, GitLabs
+Agile |	Code Repository |	GitHub, GitLab
 Agile |	Collaboration |	Sharepoint
 Agile |	Communication |	Microsoft Teams
 Agile |	Scrum/Kanban Board |	Rally
-Data |	Caching | Redis, MemcacheD, Amazon ElastiCache, Amazon Cloud Front
-Data |	Cluster |	Hadoop, Spark, Ambari
+Data |	CDN | Amazon Cloud Front
+Data |	Caching | Redis, MemcacheD, Amazon ElastiCache
+Data |	Cluster |	Hadoop, Spark, Ambari, Apache Zookeeper
 Data |	Content Management |	Alfresco, Patent CMS
+Data |	DB-Document-Oriented |	MongoDB, Amazon DocumentDB (with MongoDB compatibility)
+Data |	DB-Graph-Oriented |	Neo4J, Amazon Neptune, Azure Cosmos DB
+Data |	DB-Relational |	PostgresSQL, Oracle, MySQL, Amazon Aurora (MySQL), Amazon RDS (Oracle)
 Data |	Data Science |	Jupyter Notebook, Python, R Lang, Julia, Apache Zeppelin
-Data |	Document |	MongoDB
-Data |	Caching |	MemcacheD
-Data |	Cluster |	Hadoop, Spark
-Data |	Content Management |	Alfresco
-Data |	Data Science |	Jupyter Notebook, Python
 Data |	ETL |	PenApache NiFi, Alteryx, Amazon Gluetaho
-Data |	Graph |	Neo4J, Amazon Neptune, Azure Cosmos DB
 Data |	Queue & Streaming | Kafka, Jboss AMQ, Amazon Kinesis Data Streams (Kafka), Amazon Kinesis Firehose (Kafka), Amazon Managed Streaming for Kafka (Amazon MSK)
-Data |	Relational |	PostgresSQL, Oracle, MySQL, Amazon Aurora (MySQL), Amazon RDS (Oracle)
-Data |	Search |	Elasticsearch, Solr
 Data |	Schema Version Control |	Liquibase
+Data |	Search |	Elasticsearch, Solr
 Data |	Visualization |	Tableau Desktop, elastic Kibana, Amazon QuickSight, PowerBI
-Development |	API |	Swagger, OpenAPI, Spring Coud Contracts
-Development |	Authentication/Authorization |	Okta, Oracle IAM, Amazon AWS IAM, Auzre AD
-Development |	Frameworks |	Spring
-Development |	Backend |	Spring Boot, Node.js
+Data |  Client-Side Caching |  IndexedDB, HTML WEb Storage
+Data |  DB-Connections |   c3p0, OJDBC, JDBC, Spring JDBC
+Data |  Warehouse & Mart  | USPTO Enterprise Data Warehouse
+Desktop |   Browser | Current Browser Trends
+Development |	AOP |	AspectJ, Spring AOP
+Development |	API |	Swagger, OpenAPI, Spring Coud Contracts, SpringFox
+Development |	Authentication/Authorization |	Okta, Oracle IAM, Amazon AWS IAM, Auzre AD, MyUSPTO, Spring Security
+Development |	Authoring | MS Word, CK Editor
 Development |	Build Packages |	Maven, NPM, Webpack, Bower, ES6 Modules, Gulp, Angular CLI
-Development |	Frontend |	Angular, React, Vue
+Development |	Framework-Backend |	Spring Boot, Node.js
+Development |	Framework-Frontend |	Angular, React, Vue
 Development |	IDE |	Eclipse, Sublime, IntelliJ, Anaconda, R Studio, VS Code
-Development |	Languages |	Java, JavaScript, TypeScript, Google GO, Julia, R, Python
+Development |	Languages |	Java, JavaScript, TypeScript, Google GO, Julia, R, Python, AspectJ
+Development |	Notification |	Email, Internally Deveeloped REST API for AWS, AWS SQS, AWS SNS
 Development |	ORM | 	Hibernate, Sequelize
+Development |	Optical Character Recognition (OCR) | 	Tessaract
 Development |	Style |	USWDS, Bootstrap, HTML5, CSS3, SASS, USPTO Design Pattern Library (DPL)
+Development |   Code Documentation |    Javadoc
+Development |   PDF Content Management | Apache PDFBox, Antenna House Formatter, iText, PDFTron WebViewer
+Development |   Parsing, Serialization, Transformation |    Jackson, JAXB
+Development |   Services-REST | Jersey, RESTEasy JAX-RS, Spring Boot REST
+Development |   Services-SOAP | Apache Axis2
 Infrastructure |	API Gateway |	Kong, MuleSoft, Apogee, Broadcom Layer 7 Gateway
 Infrastructure |	Cloud |	AWS, Azure, GCP, MicroPact
+Infrastructure |	Container Compute | Amazon FarGate
 Infrastructure |	Container |	Docker, container, CRI-O
 Infrastructure |	IaC |	Terraform, AWS Cloud Development Kit (CDK)
 Infrastructure |	Orchestration |	Kubernetes, Amazon ECS, Amazon ECR, Amazon EKS
-Infrastructure |	Container Compute | Amazon FarGate
 Infrastructure |	Pipeline |	Amazon Jenkins, Jenkins, AWS CodeDeploy
 Infrastructure |	Platform |	OpenShift
 Infrastructure |	Repository Manager |	Nexus
 Infrastructure |	Service Mesh |	Istio
+Infrastructure |    Workflow |    USPTO Hierarchical Finite State Machine
+Operations |	APM |	AppDynamics
 Operations |	Dashboards |	Grafana, elastic Kibana
 Operations |	Metrics |	Prometheus, Logstash, Splunk, FluentD, AppDynamics Pro, Google Analytics, Sitescope
 Operations |	Monitoring |	Splunk, Logback, Log4J2, SLF4J, AppDynamics Pro, JBoss EAP Logging, SiteScope, FluentD, QRadar, Amazon X-Ray
-Operations |	APM |	AppDynamics
+Operations |    Scheduling |    Quartz Scheduler
 Testing |	Accessibility/508 |	Pa11y, ANDI, Wave Plug-In for Chrome by Webaim
 Testing |	Integration |	Selenium, Protractor, Cucumber
 Testing |	Penetration |	OWASP ZAP, Fortify, WebInspect
 Testing |	Performance |	JMeter, Gatling, LoadRunner
 Testing |	Static Code Analysis |	SonarQube
-Testing |	Unit |	JUnit, Jest, Jasmine, Mockito, OpenPojo, jMock, Spring Cloud Contracts
+Testing |	Unit |	JUnit, Jest, Jasmine, Mockito, OpenPojo, jMock, Spring Cloud Contracts, Karma
